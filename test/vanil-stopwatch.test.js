@@ -1,4 +1,15 @@
-// Importing the dependent modules.
+//  Copyright (c) 2018-present, Deniz Kanmaz. All rights reserved.
+//  This source code is licensed under the MIT Licence.
+//  Use of this source code is governed by a license
+//  that can be found in the LICENSE file.
+
+//  This program is distributed in the hope that it will be useful,
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+//  LICENSE file for more details.
+
+
+// Import the dependent modules.
 var Stopwatch = require('../build/vanil-stopwatch');
 var DummyProcessor = require('./dummyProcessor');
 

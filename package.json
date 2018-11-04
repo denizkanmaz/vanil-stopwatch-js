@@ -1,0 +1,29 @@
+{
+  "name": "vanil-stopwatch-js",
+  "version": "0.0.0",
+  "description": "A simple (Similar to dotnet's) stopwatch library for monitoring performance.",
+  "main": "src/vanil-stopwatch.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run-script transpile && jest ./test",
+    "transpile": "./node_modules/.bin/babel src -d build",
+    "transpile-minify": "./node_modules/.bin/babel src --out-file build/vanil-stopwatch.min.js --presets babel-preset-minify",
+    "transpile-all": "npm run-script transpile && npm run-script transpile-minify"
+  },
+  "keywords": [
+    "stopwatch-js"
+  ],
+  "author": "Deniz Kanmaz",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-minify": "^0.5.0",
+    "jest": "^23.6.0"
+  }
+}

@@ -141,4 +141,6 @@ function () {
   return Stopwatch;
 }();
 
-module.exports = Stopwatch;
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
+  module.exports = Stopwatch;
+}

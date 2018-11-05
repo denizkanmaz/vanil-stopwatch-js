@@ -1,6 +1,6 @@
 {
   "name": "vanil-stopwatch-js",
-  "version": "0.0.0",
+  "version": "1.0.0-beta1",
   "description": "A simple (Similar to dotnet's) stopwatch library for monitoring performance.",
   "main": "src/vanil-stopwatch.js",
   "directories": {
@@ -13,7 +13,7 @@
     "transpile-all": "npm run-script transpile && npm run-script transpile-minify"
   },
   "keywords": [
-    "stopwatch-js"
+    "vanil-stopwatch-js", "stopwatch"
   ],
   "author": "Deniz Kanmaz",
   "license": "MIT",

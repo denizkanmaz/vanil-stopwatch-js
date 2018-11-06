@@ -1,6 +1,6 @@
 {
   "name": "vanil-stopwatch-js",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0-beta2",
   "description": "A simple (Similar to dotnet's) stopwatch library for monitoring performance.",
   "main": "build/vanil-stopwatch.js",
   "directories": {

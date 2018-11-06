@@ -16,7 +16,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //  but WITHOUT ANY WARRANTY; without even the implied warranty of
 //  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 //  LICENSE file for more details.
-//  vanil-stopwatch-js v1.0.0-beta1
+//  vanil-stopwatch-js v1.0.0-beta2
 
 /**
  * Class representing a stopwatch.

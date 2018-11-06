@@ -1,4 +1,4 @@
-# vanil-stopwatch-js v.1.0.0-beta1
+# vanil-stopwatch-js v.1.0.0-beta2
 
 "vanil-stopwatch-js" is a simple (Similar to dotnet's) stopwatch library for monitoring performance. Both node.js and browser compatible.
 

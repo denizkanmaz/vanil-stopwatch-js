@@ -16,7 +16,7 @@ var Stopwatch = require('vanil-stopwatch-js');
 ```
 #### Browser:
 ```html
-<!-- Import the script the file (Prefer the minimized version of the module) -->
+<!-- Import the script file (Prefer the minimized version of the module) -->
 <script src="vanil-stopwatch.min.js"></script>
 ```
 

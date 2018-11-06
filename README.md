@@ -1,15 +1,32 @@
 # vanil-stopwatch-js v.1.0.0-beta1
 
-"vanil-stopwatch-js" is a simple (Similar to dotnet's) stopwatch library for monitoring performance.
+"vanil-stopwatch-js" is a simple (Similar to dotnet's) stopwatch library for monitoring performance. Both node.js and browser compatible.
+
+You can get the latest release from the official [npmjs.com feed](https://www.npmjs.com/package/vanil-stopwatch-js) or from the [github releases page](https://github.com/denizkanmaz/vanil-stopwatch-js/releases).
 
 [![Build Status](https://travis-ci.com/denizkanmaz/vanil-stopwatch-js.svg?branch=master)](https://travis-ci.com/denizkanmaz/vanil-stopwatch-js)
 
 ## Getting Started
 
-### Initialization and starting the measurement.
+### Importing the module
+#### Node.js:
+```javascript
+// Import the module.
+var Stopwatch = require('vanil-stopwatch-js');
+```
+#### Browser:
+```html
+<!-- Import the script the file (Prefer the minimized version of the module) -->
+<script src="vanil-stopwatch.min.js"></script>
+```
+
+### Initialization and starting the measurement
 #### Option 1:
 ```javascript
-// Initialize an instance
+// Import the module.
+var Stopwatch = require('vanil-stopwatch-js');
+
+// Initialize an instance.
 var sw = new Stopwatch();
 
 // Start the measurement.
@@ -17,11 +34,17 @@ sw.start();
 ```
 #### Option 2:
 ```javascript
+// Import the module.
+var Stopwatch = require('vanil-stopwatch-js');
+
 // Initialize an instance and start it immediately.
 var sw = new Stopwatch(true);
 ```
-### Getting the elapsed time.
+### Getting the elapsed time
 ```javascript
+// Import the module.
+var Stopwatch = require('vanil-stopwatch-js');
+
 // Initialize an instance and start it immediately.
 var sw = new Stopwatch(true);
 
@@ -44,9 +67,12 @@ setTimeout(function(){
 }, 200)
 ```
   
-### Splitting the measurement:
+### Splitting the measurement
 You can split the measurement to laps while it runs.
 ```javascript
+// Import the module.
+var Stopwatch = require('vanil-stopwatch-js');
+
 // Initialize an instance and start it immediately.
 var sw = new Stopwatch(true);
 

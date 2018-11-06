@@ -2,7 +2,7 @@
   "name": "vanil-stopwatch-js",
   "version": "1.0.0-beta1",
   "description": "A simple (Similar to dotnet's) stopwatch library for monitoring performance.",
-  "main": "src/vanil-stopwatch.js",
+  "main": "build/vanil-stopwatch.js",
   "directories": {
     "test": "test"
   },
@@ -11,6 +11,10 @@
     "transpile": "./node_modules/.bin/babel src -d build",
     "transpile-minify": "./node_modules/.bin/babel src --out-file build/vanil-stopwatch.min.js --presets babel-preset-minify",
     "transpile-all": "npm run-script transpile && npm run-script transpile-minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizkanmaz/node-caching-example.git"
   },
   "keywords": [
     "vanil-stopwatch-js", "stopwatch"

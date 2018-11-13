@@ -8,7 +8,7 @@
 //  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 //  LICENSE file for more details.
 
-//  vanil-stopwatch-js v1.0.0-beta2
+//  vanil-stopwatch-js v1.0.1
 
 /**
  * Class representing a stopwatch.
